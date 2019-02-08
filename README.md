@@ -1,8 +1,20 @@
 # Docker Images
 
+![](https://img.shields.io/docker/automated/wqael/docker.svg)
+![](https://img.shields.io/docker/build/wqael/docker.svg)
+![](https://img.shields.io/docker/pulls/wqael/docker.svg)
+![](https://img.shields.io/docker/stars/wqael/docker.svg)
+
+
 A set of base docker images.
 
-### [Conda](https://conda.io/miniconda.html)
+To pull,
+
+```sh
+docker pull wqael/docker <tag>
+```
+
+## [Conda](https://conda.io/miniconda.html)
 
 | Tag   | Comment | Dockerfile | Info  |
 | ----- | ------- | ---------- | ----  |
