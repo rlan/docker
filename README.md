@@ -11,7 +11,7 @@ A set of base docker images.
 To pull,
 
 ```sh
-docker pull wqael/docker <tag>
+docker pull wqael/docker:<tag>
 ```
 
 ## [Conda](https://conda.io/miniconda.html)
