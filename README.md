@@ -26,3 +26,17 @@ docker pull wqael/docker:<tag>
 | `conda2-cuda9` | NVIDIA driver >= 384.xx | [Dockerfile](conda2-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:conda2-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:conda2-cuda9.svg)](https://microbadger.com/images/wqael/docker:conda2-cuda9) |
 | `conda3-cuda8` | NVIDIA driver >= 375.xx | [Dockerfile](conda3-cuda8/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:conda3-cuda8.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:conda3-cuda8.svg)](https://microbadger.com/images/wqael/docker:conda3-cuda8) |
 | `conda2-cuda8` | NVIDIA driver >= 375.xx | [Dockerfile](conda2-cuda8/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:conda2-cuda8.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:conda2-cuda8.svg)](https://microbadger.com/images/wqael/docker:conda2-cuda8) |
+
+
+## Host Python
+
+| Tag   | Comment | Dockerfile | Info  |
+| ----- | ------- | ---------- | ----  |
+| `py3` | CPU-only | [Dockerfile](py3/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py3.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py3.svg)](https://microbadger.com/images/wqael/docker:py3) |
+| `py2` | CPU-only | [Dockerfile](py2/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py2.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py2.svg)](https://microbadger.com/images/wqael/docker:py2-py2) |
+| `py3-cuda10` | NVIDIA driver >= 410.xx | [Dockerfile](py3-cuda10/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py3-cuda10.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py3-cuda10.svg)](https://microbadger.com/images/wqael/docker:py3-cuda10) |
+| `py2-cuda10` | NVIDIA driver >= 410.xx | [Dockerfile](py2-cuda10/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py2-cuda10.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py2-cuda10.svg)](https://microbadger.com/images/wqael/docker:py2-cuda10) |
+| `py3-cuda9` | NVIDIA driver >= 384.xx | [Dockerfile](py3-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py3-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py3-cuda9.svg)](https://microbadger.com/images/wqael/docker:py3-cuda9) |
+| `py2-cuda9` | NVIDIA driver >= 384.xx | [Dockerfile](py2-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py2-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py2-cuda9.svg)](https://microbadger.com/images/wqael/docker:py2-cuda9) |
+| `py3-cuda8` | NVIDIA driver >= 375.xx | [Dockerfile](py3-cuda8/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py3-cuda8.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py3-cuda8.svg)](https://microbadger.com/images/wqael/docker:py3-cuda8) |
+| `py2-cuda8` | NVIDIA driver >= 375.xx | [Dockerfile](py2-cuda8/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py2-cuda8.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py2-cuda8.svg)](https://microbadger.com/images/wqael/docker:py2-cuda8) |
