@@ -1,7 +1,7 @@
 # Docker Images
 
-![](https://img.shields.io/docker/automated/wqael/docker.svg)
-![](https://img.shields.io/docker/build/wqael/docker.svg)
+![](https://img.shields.io/docker/cloud/automated/wqael/docker.svg)
+![](https://img.shields.io/docker/cloud/build/wqael/docker.svg)
 ![](https://img.shields.io/docker/pulls/wqael/docker.svg)
 ![](https://img.shields.io/docker/stars/wqael/docker.svg)
 
