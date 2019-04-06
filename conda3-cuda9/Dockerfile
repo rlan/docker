@@ -15,14 +15,17 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0"
 
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+ENV PATH /opt/conda/bin:$PATH
+
 RUN apt-get -qq update \
       && apt-get -qq install -y --no-install-recommends \
         bzip2 \
+        ca-certificates \
         wget \
       && apt-get -qq clean \
-    && wget $CONDA_INSTALLER -O /tmp/miniconda.sh --quiet --no-check-certificate \
+    && wget --quiet $CONDA_INSTALLER -O /tmp/miniconda.sh \
       && chmod +x /tmp/miniconda.sh \
       && /tmp/miniconda.sh -b -p /opt/conda \
-      && /opt/conda/bin/conda clean -ya --quiet \
+      && conda clean -aqy \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-ENV PATH /opt/conda/bin:$PATH
