@@ -1,0 +1,4 @@
+conda3
+conda3-cuda10
+conda3-cuda9
+conda3-cuda8

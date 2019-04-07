@@ -1,0 +1,4 @@
+py2
+py2-cuda10
+py2-cuda9
+py2-cuda8
