@@ -1,6 +1,6 @@
 FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu16.04
 
-LABEL description="Python 3 / nvidia/cuda:10.0-cudnn7-runtime-ubuntu16.04" \
+LABEL description="Python 2.7 / nvidia/cuda:10.0-cudnn7-runtime-ubuntu16.04" \
       maintainer="https://github.com/rlan/docker"
 
 
@@ -29,4 +29,4 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Update python tools
-RUN ${PIP} --no-cache-dir install -q -U pip setuptools
+RUN ${PIP} --no-cache-dir install -q --upgrade pip setuptools wheel

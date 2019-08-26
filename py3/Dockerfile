@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-LABEL description="Python 3 / ubuntu:16.04" \
+LABEL description="Python 3.5 / ubuntu:16.04" \
       maintainer="https://github.com/rlan/docker"
 
 
@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Update python tools
-RUN ${PIP} --no-cache-dir install -q -U pip setuptools
+RUN ${PIP} --no-cache-dir install -q --upgrade pip setuptools wheel
 
 # Make python 3 default
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 100
