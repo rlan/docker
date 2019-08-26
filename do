@@ -1,6 +1,10 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 PROJECT="wqael/notebooks"
+=======
+PROJECT="wqael/docker"
+>>>>>>> eda1045f58acbed671c6408a55f3703bce0917a2
 
 usage() {
   echo ""
@@ -17,23 +21,35 @@ usage() {
 
 build() {
 	echo "[[ Building $1 ]]"
+<<<<<<< HEAD
 	cd $1
   docker build -t "$PROJECT:$1" .
   cd ..
+=======
+	cd $1 && docker build -t "$PROJECT:$1" . && cd ..
+>>>>>>> eda1045f58acbed671c6408a55f3703bce0917a2
 }
 
 pull() {
 	echo "[[ Pulling $1 ]]"
+<<<<<<< HEAD
   cd $1
   docker pull "$PROJECT:$1"
   cd ..
+=======
+  cd $1 && docker pull "$PROJECT:$1" && cd ..
+>>>>>>> eda1045f58acbed671c6408a55f3703bce0917a2
 }
 
 push() {
 	echo "[[ Pushing $1 ]]"
+<<<<<<< HEAD
   cd $1
   docker push "$PROJECT:$1"
   cd ..
+=======
+  cd $1 && docker push "$PROJECT:$1" && cd ..
+>>>>>>> eda1045f58acbed671c6408a55f3703bce0917a2
 }
 
 release() {
@@ -45,7 +61,11 @@ release() {
 
 rmi() {
 	echo "[[ Removing $1 ]]"
+<<<<<<< HEAD
   docker rmi "$PROJECT:$1"
+=======
+  cd $1 && docker rmi "$PROJECT:$1" && cd ..
+>>>>>>> eda1045f58acbed671c6408a55f3703bce0917a2
 }
 
 
