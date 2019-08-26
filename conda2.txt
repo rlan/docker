@@ -1,4 +1,0 @@
-conda2
-conda2-cuda10
-conda2-cuda9
-conda2-cuda8
