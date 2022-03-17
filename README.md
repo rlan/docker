@@ -36,9 +36,12 @@ For docker images based ones in this repo, see [https://github.com/rlan/mldock](
 
 | Tag   | Comment | Dockerfile | Info  |
 | ----- | ------- | ---------- | ----  |
+| `py3.8` | CPU-only | [Dockerfile](py3.8/Dockerfile) | ![](https://img.shields.io/docker/image-size/wqael/docker/py3.8) |
 | `py36` | CPU-only | [Dockerfile](py36/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py36.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py36.svg)](https://microbadger.com/images/wqael/docker:py36) |
 | `py3` | CPU-only | [Dockerfile](py3/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py3.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py3.svg)](https://microbadger.com/images/wqael/docker:py3) |
 | `py2` | CPU-only | [Dockerfile](py2/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py2.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py2.svg)](https://microbadger.com/images/wqael/docker:py2) |
+| `py3.8-cuda11.3.1` | Nvidia Driver >= 465.19.01 (Linux) 465.89 (Windows) | [Dockerfile](py3.8-cuda11.3.1/Dockerfile) | ![](https://img.shields.io/docker/image-size/wqael/docker/py3.8-cuda11.3.1) |
+| `py3.8-cuda10.2` | Nvidia Driver >= 440.33 (Linux) 441.22 (Windows) | [Dockerfile](py3.8-cuda10.2/Dockerfile) | ![](https://img.shields.io/docker/image-size/wqael/docker/py3.8-cuda10.2) |
 | `py3.6.9-cuda11.1.1` | NVIDIA driver >= 455.32 | [Dockerfile](py3.6.9-cuda11.1.1/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py3.6.9-cuda11.1.1.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py3.6.9-cuda11.1.1.svg)](https://microbadger.com/images/wqael/docker:py3.6.9-cuda11.1.1) |
 | `py36-cuda11` | NVIDIA driver >= 450.36.06 | [Dockerfile](py36-cuda11/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py36-cuda11.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py36-cuda11.svg)](https://microbadger.com/images/wqael/docker:py36-cuda11) |
 | `py36-cuda102` | NVIDIA driver >= 440.33 | [Dockerfile](py36-cuda102/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py36-cuda102.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py36-cuda102.svg)](https://microbadger.com/images/wqael/docker:py36-cuda102) |
