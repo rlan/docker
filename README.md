@@ -16,6 +16,11 @@ docker pull wqael/docker:<tag>
 
 For docker images based ones in this repo, see [https://github.com/rlan/mldock](https://github.com/rlan/mldock) and [https://github.com/rlan/notebooks](https://github.com/rlan/notebooks).
 
+
+Check this [compatibility chart](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html)
+for the required version of Nvidia garphics driver for your host system.
+
+
 ## [Conda](https://conda.io/miniconda.html)
 
 | Tag   | Comment | Dockerfile | Info  |
