@@ -1,0 +1,9 @@
+#!/bin/sh
+
+xhost +localhost
+docker run \
+  -it --rm \
+  -e DISPLAY=docker.for.mac.host.internal:0 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v ~/.gnucash/:/home/root/.gnucash \
+  wqael/docker:gnucash
