@@ -39,6 +39,7 @@ for the required version of Nvidia garphics driver for your host system.
 
 | Tag   | Comment | Dockerfile | Info  |
 | ----- | ------- | ---------- | ----  |
+| `py3.10` | CPU-only | [Dockerfile](py3.8/Dockerfile) | ![](https://img.shields.io/docker/image-size/wqael/docker/py3.10) |
 | `py3.8` | CPU-only | [Dockerfile](py3.8/Dockerfile) | ![](https://img.shields.io/docker/image-size/wqael/docker/py3.8) |
 | `py36` | CPU-only | [Dockerfile](py36/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py36.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py36.svg)](https://microbadger.com/images/wqael/docker:py36) |
 | `py3` | CPU-only | [Dockerfile](py3/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/docker:py3.svg) ![](https://images.microbadger.com/badges/commit/wqael/docker:py3.svg)](https://microbadger.com/images/wqael/docker:py3) |
