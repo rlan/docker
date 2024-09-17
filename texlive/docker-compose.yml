@@ -1,0 +1,7 @@
+name: texlive
+services:
+    texlive:
+        image: wqael/docker:texlive
+        env_file: ".env"
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
